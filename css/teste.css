@@ -1,0 +1,55 @@
+.bg-inicio {
+    background-image: url('/img/fundo1.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.bg-1 {
+    background-image: url('/img/fundo2.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.bg-2 {
+    background-image: url('/img/fundo3.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.bg-3 {
+    background-image: url('/img/fundo4.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.bg-4 {
+    background-image: url('/img/fundo5.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.bg-5 {
+    background-image: url('/img/fundo6.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.bg-6 {
+    background-image: url('/img/fundo7.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.bg-7 {
+    background-image: url('/img/fundo8.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.effect-glass {
+    background: rgba(255, 255, 255, 0.19);
+    backdrop-filter: blur(10px) saturate(221%);
+    -webkit-backdrop-filter: blur(10px) saturate(221%);
+    border-radius: 18px;
+    border: 1px solid rgba(255, 255, 255, 0);
+}
