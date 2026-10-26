@@ -72,11 +72,11 @@
                     <p class="mt-6">O IronMaker utiliza sensores, Arduino, Raspberry Pi e interface web para monitorar e controlar recursos residenciais inteligentes.</p>
                 </div>
                 <div class="backdrop-blur-md bg-white/10 rounded-2xl border border-white/20 px-6 py-4 text-center text-balance hover:effect-glass">
-                    <i class="fa-solid fa-house-signal text-5xl h-10"></i>
+                    <i class="fa-solid fa-temperature-half text-5xl h-10"></i>
                     <p class="mt-6">Sensores coletam dados ambientais, processados pelo sistema e exibidos no painel web, que controla dispositivos residenciais.</p>
                 </div>
                 <div class="backdrop-blur-md bg-white/10 rounded-2xl border border-white/20 px-6 py-4 text-center text-balance hover:effect-glass">
-                    <i class="fa-solid fa-house-signal text-5xl h-10"></i>
+                    <i class="fa-solid fa-sliders text-5xl h-10"></i>
                     <p class="mt-6">O diferencial é centralizar o monitoramento residencial e o controle de dispositivos em um único sistema simples e prático.</p>
                 </div>
             </div>
@@ -152,112 +152,121 @@
         <section class="bg-5 text-white px-6 py-10">
             <h1 class="text-2xl font-thin uppercase tracking-widest">Como Funciona</h1>
             
-<div class="flex flex-col px-6 gap-4 mt-4">
+            <div class="flex flex-col px-6 gap-4 mt-4">
 
-    <!-- 01 — Detecte -->
-    <details name="casasmart-accordion" class="group effect-glass backdrop-blur-md bg-white/10 rounded-2xl border border-white/20 px-6 py-4">
-        <summary class="cursor-pointer list-none flex items-center justify-between gap-4">
-            <h2 class="text-xs font-semibold tracking-widest uppercase">01 — Detecte</h2>
+                <!-- 01 — Detecte -->
+                <details name="casasmart-accordion" class="group backdrop-blur-md bg-white/10 rounded-2xl border border-white/20 px-6 py-4">
+                    <summary class="cursor-pointer list-none flex items-center justify-between gap-4">
+                        <h2 class="text-xs font-semibold tracking-widest uppercase">01 — Detecte</h2>
 
-            <span class="relative flex items-center justify-center w-6 h-6 shrink-0">
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"
-                    class="w-5 h-5 transition-transform duration-300 ease-in-out group-open:rotate-180">
-                    <path d="M6 9l6 6 6-6" class="transition-opacity duration-200 group-open:opacity-0"/>
-                    <path d="M6 6l12 12M18 6L6 18" class="opacity-0 transition-opacity duration-200 group-open:opacity-100"/>
-                </svg>
-            </span>
-        </summary>
-        <p class="mt-3 text-sm leading-relaxed">
-            Os sensores instalados na residência coletam informações do ambiente, como temperatura, luminosidade, umidade e presença.
-        </p>
-    </details>
+                        <span class="relative flex items-center justify-center w-6 h-6 shrink-0">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"
+                                class="w-5 h-5 transition-transform duration-300 ease-in-out group-open:rotate-180">
+                                <path d="M6 9l6 6 6-6" class="transition-opacity duration-200 group-open:opacity-0"/>
+                                <path d="M6 6l12 12M18 6L6 18" class="opacity-0 transition-opacity duration-200 group-open:opacity-100"/>
+                            </svg>
+                        </span>
+                    </summary>
+                    <p class="mt-3 text-sm leading-relaxed">
+                        Os sensores instalados na residência coletam informações do ambiente, como temperatura, luminosidade, umidade e presença.
+                    </p>
+                </details>
 
-    <!-- 02 — Processe -->
-    <details name="casasmart-accordion" class="group effect-glass backdrop-blur-md bg-white/10 rounded-2xl border border-white/20 px-6 py-4">
-        <summary class="cursor-pointer list-none flex items-center justify-between gap-4">
-            <h2 class="text-xs font-semibold tracking-widest uppercase">02 — Processe</h2>
+                <!-- 02 — Processe -->
+                <details name="casasmart-accordion" class="group backdrop-blur-md bg-white/10 rounded-2xl border border-white/20 px-6 py-4">
+                    <summary class="cursor-pointer list-none flex items-center justify-between gap-4">
+                        <h2 class="text-xs font-semibold tracking-widest uppercase">02 — Processe</h2>
 
-            <span class="relative flex items-center justify-center w-6 h-6 shrink-0">
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"
-                    class="w-5 h-5 transition-transform duration-300 ease-in-out group-open:rotate-180">
-                    <path d="M6 9l6 6 6-6" class="transition-opacity duration-200 group-open:opacity-0"/>
-                    <path d="M6 6l12 12M18 6L6 18" class="opacity-0 transition-opacity duration-200 group-open:opacity-100"/>
-                </svg>
-            </span>
-        </summary>
-        <p class="mt-3 text-sm leading-relaxed">
-            O Arduino e o Raspberry Pi recebem e processam as informações coletadas pelos sensores.
-        </p>
-    </details>
+                        <span class="relative flex items-center justify-center w-6 h-6 shrink-0">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"
+                                class="w-5 h-5 transition-transform duration-300 ease-in-out group-open:rotate-180">
+                                <path d="M6 9l6 6 6-6" class="transition-opacity duration-200 group-open:opacity-0"/>
+                                <path d="M6 6l12 12M18 6L6 18" class="opacity-0 transition-opacity duration-200 group-open:opacity-100"/>
+                            </svg>
+                        </span>
+                    </summary>
+                    <p class="mt-3 text-sm leading-relaxed">
+                        O Arduino e o Raspberry Pi recebem e processam as informações coletadas pelos sensores.
+                    </p>
+                </details>
 
-    <!-- 03 — Monitore -->
-    <details name="casasmart-accordion" class="group effect-glass backdrop-blur-md bg-white/10 rounded-2xl border border-white/20 px-6 py-4">
-        <summary class="cursor-pointer list-none flex items-center justify-between gap-4">
-            <h2 class="text-xs font-semibold tracking-widest uppercase">03 — Monitore</h2>
+                <!-- 03 — Monitore -->
+                <details name="casasmart-accordion" class="group backdrop-blur-md bg-white/10 rounded-2xl border border-white/20 px-6 py-4">
+                    <summary class="cursor-pointer list-none flex items-center justify-between gap-4">
+                        <h2 class="text-xs font-semibold tracking-widest uppercase">03 — Monitore</h2>
 
-            <span class="relative flex items-center justify-center w-6 h-6 shrink-0">
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"
-                    class="w-5 h-5 transition-transform duration-300 ease-in-out group-open:rotate-180">
-                    <path d="M6 9l6 6 6-6" class="transition-opacity duration-200 group-open:opacity-0"/>
-                    <path d="M6 6l12 12M18 6L6 18" class="opacity-0 transition-opacity duration-200 group-open:opacity-100"/>
-                </svg>
-            </span>
-        </summary>
-        <p class="mt-3 text-sm leading-relaxed">
-            Os dados são disponibilizados no painel web, permitindo que o usuário acompanhe o estado da residência.
-        </p>
-    </details>
+                        <span class="relative flex items-center justify-center w-6 h-6 shrink-0">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"
+                                class="w-5 h-5 transition-transform duration-300 ease-in-out group-open:rotate-180">
+                                <path d="M6 9l6 6 6-6" class="transition-opacity duration-200 group-open:opacity-0"/>
+                                <path d="M6 6l12 12M18 6L6 18" class="opacity-0 transition-opacity duration-200 group-open:opacity-100"/>
+                            </svg>
+                        </span>
+                    </summary>
+                    <p class="mt-3 text-sm leading-relaxed">
+                        Os dados são disponibilizados no painel web, permitindo que o usuário acompanhe o estado da residência.
+                    </p>
+                </details>
 
-    <!-- 04 — Controle -->
-    <details name="casasmart-accordion" class="group effect-glass backdrop-blur-md bg-white/10 rounded-2xl border border-white/20 px-6 py-4">
-        <summary class="cursor-pointer list-none flex items-center justify-between gap-4">
-            <h2 class="text-xs font-semibold tracking-widest uppercase">04 — Controle</h2>
+                <!-- 04 — Controle -->
+                <details name="casasmart-accordion" class="group backdrop-blur-md bg-white/10 rounded-2xl border border-white/20 px-6 py-4">
+                    <summary class="cursor-pointer list-none flex items-center justify-between gap-4">
+                        <h2 class="text-xs font-semibold tracking-widest uppercase">04 — Controle</h2>
 
-            <span class="relative flex items-center justify-center w-6 h-6 shrink-0">
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"
-                    class="w-5 h-5 transition-transform duration-300 ease-in-out group-open:rotate-180">
-                    <path d="M6 9l6 6 6-6" class="transition-opacity duration-200 group-open:opacity-0"/>
-                    <path d="M6 6l12 12M18 6L6 18" class="opacity-0 transition-opacity duration-200 group-open:opacity-100"/>
-                </svg>
-            </span>
-        </summary>
-        <p class="mt-3 text-sm leading-relaxed">
-            O usuário pode enviar comandos pelo painel para controlar dispositivos como luzes e portão, além de alternar entre os modos automático e manual.
-        </p>
-    </details>
+                        <span class="relative flex items-center justify-center w-6 h-6 shrink-0">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"
+                                class="w-5 h-5 transition-transform duration-300 ease-in-out group-open:rotate-180">
+                                <path d="M6 9l6 6 6-6" class="transition-opacity duration-200 group-open:opacity-0"/>
+                                <path d="M6 6l12 12M18 6L6 18" class="opacity-0 transition-opacity duration-200 group-open:opacity-100"/>
+                            </svg>
+                        </span>
+                    </summary>
+                    <p class="mt-3 text-sm leading-relaxed">
+                        O usuário pode enviar comandos pelo painel para controlar dispositivos como luzes e portão, além de alternar entre os modos automático e manual.
+                    </p>
+                </details>
 
-    <!-- 05 — Automatize -->
-    <details name="casasmart-accordion" class="group effect-glass backdrop-blur-md bg-white/10 rounded-2xl border border-white/20 px-6 py-4">
-        <summary class="cursor-pointer list-none flex items-center justify-between gap-4">
-            <h2 class="text-xs font-semibold tracking-widest uppercase">05 — Automatize</h2>
+                <!-- 05 — Automatize -->
+                <details name="casasmart-accordion" class="group backdrop-blur-md bg-white/10 rounded-2xl border border-white/20 px-6 py-4">
+                    <summary class="cursor-pointer list-none flex items-center justify-between gap-4">
+                        <h2 class="text-xs font-semibold tracking-widest uppercase">05 — Automatize</h2>
 
-            <span class="relative flex items-center justify-center w-6 h-6 shrink-0">
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"
-                    class="w-5 h-5 transition-transform duration-300 ease-in-out group-open:rotate-180">
-                    <path d="M6 9l6 6 6-6" class="transition-opacity duration-200 group-open:opacity-0"/>
-                    <path d="M6 6l12 12M18 6L6 18" class="opacity-0 transition-opacity duration-200 group-open:opacity-100"/>
-                </svg>
-            </span>
-        </summary>
-        <p class="mt-3 text-sm leading-relaxed">
-            No modo automático, o sistema utiliza os dados dos sensores para realizar ações de acordo com as condições configuradas.
-        </p>
-    </details>
+                        <span class="relative flex items-center justify-center w-6 h-6 shrink-0">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"
+                                class="w-5 h-5 transition-transform duration-300 ease-in-out group-open:rotate-180">
+                                <path d="M6 9l6 6 6-6" class="transition-opacity duration-200 group-open:opacity-0"/>
+                                <path d="M6 6l12 12M18 6L6 18" class="opacity-0 transition-opacity duration-200 group-open:opacity-100"/>
+                            </svg>
+                        </span>
+                    </summary>
+                    <p class="mt-3 text-sm leading-relaxed">
+                        No modo automático, o sistema utiliza os dados dos sensores para realizar ações de acordo com as condições configuradas.
+                    </p>
+                </details>
 
-</div>
+            </div>
 
         </section>
 
         <!-- Público-Alvo -->
-        <section class="bg-6 text-white px-6 py-10">
+        <section id="publico-alvo" class="bg-6 text-white px-6 py-10">
             <h1 class="text-2xl font-thin uppercase tracking-widest">Público-Alvo</h1>
-            <h2 class="text-center text-xs font-semibold tracking-widest uppercase">Para quem é o Casa Smart?</h2>
-
-            <div class="flex flex-row px-6 gap-4 mt-4">
-                <div class="flex-1 effect-glass backdrop-blur-md bg-white/10 rounded-2xl border border-white/20 px-6 py-4">
-                    <p>O projeto é destinado a pessoas interessadas em automação residencial, tecnologia e Internet das Coisas (IoT), além de estudantes e entusiastas de programação e eletrônica.</p>
-                    <p>A solução é especialmente relevante para quem deseja compreender como sensores, dispositivos eletrônicos e sistemas web podem trabalhar juntos para criar uma residência mais conectada, prática e inteligente.</p>
-                    <p>Por possuir também uma finalidade educacional, o projeto pode ser utilizado para demonstrar de forma prática conceitos de automação, programação, eletrônica e desenvolvimento web.</p>
+            <h2 class="text-center text-xs font-semibold tracking-widest uppercase">Para quem é o IronMaker?</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 px-6 gap-4 mt-10">
+                <div class="backdrop-blur-md bg-white/10 rounded-2xl border border-white/20 px-6 py-4 text-center text-balance hover:effect-glass">
+                    <i class="fa-regular fa-eye text-5xl h-10"></i>
+                    <h4 class="mt-6 text-sm font-semibold uppercase tracking-widest">Entusiastas</h4>
+                    <p class="mt-4">Quem se interessa por automação residencial e IoT.</p>
+                </div>
+                <div class="backdrop-blur-md bg-white/10 rounded-2xl border border-white/20 px-6 py-4 text-center text-balance hover:effect-glass">
+                    <i class="fa-solid fa-user-graduate text-5xl h-10"></i>
+                    <h4 class="mt-6 text-sm font-semibold uppercase tracking-widest">Estudantes</h4>
+                    <p class="mt-6">Quem estuda programação, eletrônica e desenvolvimento web.</p>
+                </div>
+                <div class="backdrop-blur-md bg-white/10 rounded-2xl border border-white/20 px-6 py-4 text-center text-balance hover:effect-glass">
+                    <i class="fa-solid fa-school text-5xl h-10"></i>
+                    <h4 class="mt-6 text-sm font-semibold uppercase tracking-widest">Educação</h4>
+                    <p class="mt-6">Um exemplo prático de como sensores e sistemas web se conectam.<</p>
                 </div>
             </div>
         </section>
@@ -268,87 +277,122 @@
 
             <div class="grid grid-cols-1 md:grid-cols-3 px-6 gap-8 mt-4">
                 <div class="effect-glass backdrop-blur-md bg-white/10 rounded-2xl border border-white/20 px-6 py-4  flex flex-col items-center text-center">
-                    <img class="w-64 rounded" src="./img/html.jpg" alt="">
+                    <img class="w-64 rounded" src="./img/html-.png" alt="">
                     <h2 class="text-xs font-semibold tracking-widest uppercase my-2">HTML5</h2>
                     <p>Estruturará as páginas e elementos do painel web.</p>
                 </div>
                 <div class="effect-glass backdrop-blur-md bg-white/10 rounded-2xl border border-white/20 px-6 py-4  flex flex-col items-center text-center">
-                    <img class="w-64 rounded" src="./img/css.jpg" alt="">
+                    <img class="w-64 rounded" src="./img/css-.png" alt="">
                     <h2 class="text-xs font-semibold tracking-widest uppercase my-2">CSS</h2>
                     <p>Definirá o visual, layout e aparência do site.</p>
                 </div>
                 <div class="effect-glass backdrop-blur-md bg-white/10 rounded-2xl border border-white/20 px-6 py-4  flex flex-col items-center text-center">
-                    <img class="w-64 rounded" src="./img/tailwindcss.jpg" alt="">
+                    <img class="w-64 rounded" src="./img/tailwindcss-.png" alt="">
                     <h2 class="text-xs font-semibold tracking-widest uppercase my-2">Tailwind CSS</h2>
                     <p>Facilitará a criação do layout e da interface responsiva.</p>
                 </div>
                 <div class="effect-glass backdrop-blur-md bg-white/10 rounded-2xl border border-white/20 px-6 py-4  flex flex-col items-center text-center">
-                    <img class="w-64 rounded" src="./img/javascript.jpg" alt="">
+                    <img class="w-64 rounded" src="./img/javascript-.png" alt="">
                     <h2 class="text-xs font-semibold tracking-widest uppercase my-2">Vanilla JavaScript</h2>
                     <p>Permitirá a interação do usuário e o controle dos dispositivos pelo site.</p>
                 </div>
                 <div class="effect-glass backdrop-blur-md bg-white/10 rounded-2xl border border-white/20 px-6 py-4  flex flex-col items-center text-center">
-                    <img class="w-64 rounded" src="./img/git.jpg" alt="">
+                    <img class="w-64 rounded" src="./img/git-.png" alt="">
                     <h2 class="text-xs font-semibold tracking-widest uppercase my-2">Git</h2>
                     <p>Controlará as versões e alterações do código do projeto.</p>
                 </div>
                 <div class="effect-glass backdrop-blur-md bg-white/10 rounded-2xl border border-white/20 px-6 py-4  flex flex-col items-center text-center">
-                    <img class="w-64 rounded" src="./img/github.jpg" alt="">
+                    <img class="w-64 rounded" src="./img/github-.png" alt="">
                     <h2 class="text-xs font-semibold tracking-widest uppercase my-2">GitHub</h2>
                     <p>Armazenará o código e permitirá o trabalho colaborativo da equipe.</p>
                 </div>
                 <div class="effect-glass backdrop-blur-md bg-white/10 rounded-2xl border border-white/20 px-6 py-4  flex flex-col items-center text-center">
-                    <img class="w-64 rounded" src="./img/raspberrypi.jpg" alt="">
+                    <img class="w-64 rounded" src="./img/raspberrypi.png" alt="">
                     <h2 class="text-xs font-semibold tracking-widest uppercase my-2">Raspberry Pi</h2>
                     <p>Controlará os sensores e dispositivos da casa e executará o sistema.</p>
                 </div>
                 <div class="effect-glass backdrop-blur-md bg-white/10 rounded-2xl border border-white/20 px-6 py-4  flex flex-col items-center text-center">
-                    <img class="w-64 rounded" src="./img/Protoboard.jpg" alt="">
+                    <img class="w-64 rounded" src="./img/Protoboard.png" alt="">
                     <h2 class="text-xs font-semibold tracking-widest uppercase my-2">Protoboard</h2>
                     <p>Permitirá montar e testar os circuitos da maquete sem soldagem.</p>
                 </div>
                 <div class="effect-glass backdrop-blur-md bg-white/10 rounded-2xl border border-white/20 px-6 py-4  flex flex-col items-center text-center">
-                    <img class="w-64 rounded" src="./img/Jumpers.jpg" alt="">
+                    <img class="w-64 rounded" src="./img/Jumpers.png" alt="">
                     <h2 class="text-xs font-semibold tracking-widest uppercase my-2">Jumpers</h2>
                     <p>Farão as conexões elétricas entre o Raspberry Pi e os componentes.</p>
                 </div>
                 <div class="effect-glass backdrop-blur-md bg-white/10 rounded-2xl border border-white/20 px-6 py-4  flex flex-col items-center text-center">
-                    <img class="w-64 rounded" src="./img/Resistores.jpg" alt="">
+                    <img class="w-64 rounded" src="./img/Resistores.png" alt="">
                     <h2 class="text-xs font-semibold tracking-widest uppercase my-2">Resistores</h2>
                     <p>Limitarão a corrente elétrica e protegerão os componentes.</p>
                 </div>
                 <div class="effect-glass backdrop-blur-md bg-white/10 rounded-2xl border border-white/20 px-6 py-4  flex flex-col items-center text-center">
-                    <img class="w-64 rounded" src="./img/DHT11.jpg" alt="">
+                    <img class="w-64 rounded" src="./img/DHT11.png" alt="">
                     <h2 class="text-xs font-semibold tracking-widest uppercase my-2">DHT11</h2>
                     <p>Medirá a temperatura e a umidade do ambiente.</p>
                 </div>
                 <div class="effect-glass backdrop-blur-md bg-white/10 rounded-2xl border border-white/20 px-6 py-4  flex flex-col items-center text-center">
-                    <img class="w-64 rounded" src="./img/LDR.jpg" alt="">
+                    <img class="w-64 rounded" src="./img/LDR.png" alt="">
                     <h2 class="text-xs font-semibold tracking-widest uppercase my-2">LDR</h2>
                     <p>Detectará o nível de luminosidade do ambiente.</p>
                 </div>
                 <div class="effect-glass backdrop-blur-md bg-white/10 rounded-2xl border border-white/20 px-6 py-4  flex flex-col items-center text-center">
-                    <img class="w-64 rounded" src="./img/SensorPIRHC-SR501.jpg" alt="">
+                    <img class="w-64 rounded" src="./img/SensorPIRHC-SR501.png" alt="">
                     <h2 class="text-xs font-semibold tracking-widest uppercase my-2">Sensor PIR HC-SR501</h2>
                     <p>Detectará movimentos e presença de pessoas.</p>
                 </div>
                 <div class="effect-glass backdrop-blur-md bg-white/10 rounded-2xl border border-white/20 px-6 py-4  flex flex-col items-center text-center">
-                    <img class="w-64 rounded" src="./img/leds.jpg" alt="">
+                    <img class="w-64 rounded" src="./img/leds.png" alt="">
                     <h2 class="text-xs font-semibold tracking-widest uppercase my-2">LEDs</h2>
                     <p>Representarão a iluminação dos ambientes da casa.</p>
                 </div>
                 <div class="effect-glass backdrop-blur-md bg-white/10 rounded-2xl border border-white/20 px-6 py-4  flex flex-col items-center text-center">
-                    <img class="w-64 rounded" src="./img/Servomotor.jpg" alt="">
+                    <img class="w-64 rounded" src="./img/Servomotor.png" alt="">
                     <h2 class="text-xs font-semibold tracking-widest uppercase my-2">Servo Motor</h2>
                     <p>Controlará a abertura e o fechamento do portão da garagem.</p>
                 </div>
             </div>
         </section>
 
-        <footer class="border-t border-white/10 bg-slate-950 px-6 py-10 text-center text-sm text-slate-400">
-            <h2 class="font-semibold text-white">Iron<span class="text-cyan-400 font-semibold">Maker</span></h2>
-            <p class="mt-2">Projeto de automação residencial com Raspberry Pi e IoT.</p>
-            <p class="mt-4">© 2026 IronMaker. Todos os direitos reservados.</p>
+        <footer class="relative overflow-hidden border-t border-white/10 bg-slate-950 px-6 pt-14 pb-8 text-sm text-slate-400">
+            <div class="absolute top-0 left-0 right-0 h-px bg-cyan-400/40"></div>
+            <div class="absolute -top-24 left-1/2 h-48 w-96 max-w-full -translate-x-1/2 rounded-full bg-cyan-400/10 blur-3xl"></div>
+
+            <div class="relative mx-auto max-w-5xl">
+                <div class="grid grid-cols-1 gap-10 text-center md:grid-cols-3">
+
+                    <div class="md:text-left">
+                        <h2 class="text-xl font-semibold text-white mt-4">Iron<span class="text-cyan-400">Maker</span></h2>
+                        <p class="mx-auto mt-2 max-w-xs font-light leading-relaxed md:mx-0">Automação residencial com Raspberry Pi e IoT.</p>
+                    </div>
+
+                    <nav aria-label="Navegação do rodapé">
+                        <h3 class="  mt-4 text-xs font-semibold uppercase tracking-widest text-white/80">Navegar</h3>
+                        <ul class="mt-2 mb-4 space-y-2 font-light">
+                            <li class=""><a href="#publico-alvo" class="hover:text-cyan-400">Público-alvo</a></li>
+                            <li class="""><a href="#tecnologias" class="hover:text-cyan-400">Tecnologias</a></li>
+                        </ul>
+                    </nav>
+
+                    <div class="md:text-right">
+                        <h3 class="text-xs font-semibold uppercase tracking-widest text-white/80 mt-4">Tecnologias</h3>
+                        <div class="mt-4 flex flex-wrap justify-center gap-2 md:justify-end">
+                            <span class="border border-white/20 bg-white/10 text-xs backdrop-blur-md rounded-2xl px-5">Raspberry Pi</span>
+                            <span class="border border-white/20 bg-white/10 text-xs backdrop-blur-md rounded-2xl px-5">IoT</span>
+                            <span class="border border-white/20 bg-white/10 text-xs backdrop-blur-md rounded-2xl px-5">Sensores</span>
+                            <span class="border border-white/20 bg-white/10 text-xs backdrop-blur-md rounded-2xl px-5">Web</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="mt-12 flex flex-col items-center justify-between gap-4 border-t border-white/10 pt-6 text-xs sm:flex-row">
+                    <p class="mt-6">© 2026 IronMaker. Todos os direitos reservados.</p>
+                    <div class="mt-6 flex justify-center">
+                        <a class="text-white/80 px-5 border border-cyan-500 py-3 text-sm font-semibold transition  
+                        hover:shadow-cyan-500/20 hover:bg-cyan-500 duration-700 mb-5 rounded-2xl" href="#inicio">Voltar ao Início</a>
+                    </div>
+                </div>
+            </div>
         </footer>
     </main>
 
